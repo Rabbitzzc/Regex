@@ -1,6 +1,5 @@
-// . 点运算符的匹配，匹配任意单个字符
-
-const reg = new RegExp('.ar')
+// 使用 | 表示或
+const reg = new RegExp('(T|t)he|car')
 const str = 'The car parked in the garage.'
 
 console.log(reg.test(str))
